@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Станислав Меретин](https://up.htmlacademy.ru/htmlcss/25/user/985857).
-* Наставник: [Юрий Зайцев] (https://htmlacademy.ru/profile/yuryzaytsev).
+* Наставник: [Юрий Зайцев](https://htmlacademy.ru/profile/yuryzaytsev).
 
 ---
 
