@@ -9,11 +9,11 @@
 <body>
   <header class="main-header">
     <a class="main-header-logo">
-      <img src="technomart-logo.svg" width="108" height="18" alt="Логотип «Техномарт»">
+      <img src="img/logo-technomart.png" width="108" height="18" alt="Логотип «Техномарт»">
     </a>
     <!-- Здесь будет поиск -->
     <a href="favorite.html">Закладки</a>
-    <a href="bascet.html">Корзина</a>
+    <a href="bascet.html">Корзина:10</a>
     <a href="buy-item.html">Оформить заказ</a>
     <p class="header-about">
       Интернет-магазин строительных материалов и инструментов для ремонта
@@ -21,8 +21,25 @@
     <p class="header-phone">+7 (812) 555-05-55</p>
     <p class="header-contacts">г. Санкт-Петербург. ул. Б.Конюшенная, д. 19/8</p>
     <ul class="user-navigation">
-      <li><a href="login.html">Войти</a></li>
-      <li><a href="registration.html">Регистрация</a></li>
+      <li><a href="user-cabinet.html">
+          <img src="img/icon-user.svg">
+          Равшан Дшамшутович
+        </a>
+      </li>
+      <li>
+        <a href="logout.html">
+          <img src="img/icon-logout.svg" alt="Выйти">
+        </a>
+      </li>
+      <li><a href="user-cabinet-offers.html">
+          Мои заказы
+        </a>
+      </li>
+      <li>
+        <a href="user-cabinet.html">
+          Личный кабинет
+        </a>
+      </li>
     </ul>
     <nav class="main-navigation">
       <ul class="site-navigation">
@@ -38,6 +55,7 @@
   </header>
   <main class="container">
     <ul class="breadcrumbs">
+      <li><a href="index.html"><img src="img/icon-home.svg"></li>
       <li><a href="technomart-catalog.html">Каталог</a></li>
       <li><a href="tools.html">Инструмент</a></li>
       <li class="breadcrumbs-current"><a>Перфораторы</a></li>
@@ -59,7 +77,7 @@
             <h3>Перфоратор BOSCH BFG 3000</h3>
             <del class="old-price">22500 Р.</del>
             <p class="catalog-item-price">
-              <b>15500 Р.</b>
+              15500 Р.
             </p>
           </a>
         </li>
@@ -72,22 +90,22 @@
             <h3>Перфоратор BOSCH BFG 6000</h3>
             <del class="old-price">30500 Р.</del>
             <p class="catalog-item-price">
-              <b>25500 Р.</b>
+              25500 Р.
             </p>
           </a>
         </li>
 
         <li class="catalog-item">
+          <img src="img/new.png" alt="New">
           <h3>
             <a href="catalog-item.html">Перфоратор BOSCH BFG 2000</a>
           </h3>
           <div>
-            <p>new</p>
             <a href="#">Купить</a>
             <a href="#">В Закладки</a>
           </div>
           <p class="catalog-item-price">
-            <b>12500 Р.</b>
+            12500 Р.
           </p>
         </li>
 
@@ -99,7 +117,7 @@
             <h3>Перфоратор BOSCH BFG 3000</h3>
             <del class="old-price">22500 Р.</del>
             <p class="catalog-item-price">
-              <b>15500 Р.</b>
+              15500 Р.
             </p>
           </a>
         </li>
@@ -112,7 +130,7 @@
             <h3>Перфоратор BOSCH BFG 6000</h3>
             <del class="old-price">30500 Р.</del>
             <p class="catalog-item-price">
-              <b>25500 Р.</b>
+              25500 Р.
             </p>
           </a>
         </li>
@@ -124,7 +142,7 @@
           <a href="catalog-item-2000.html">
             <h3>Перфоратор BOSCH BFG 2000</h3>
             <p class="catalog-item-price">
-              <b>12500 Р.</b>
+              12500 Р.
             </p>
           </a>
         </li>
@@ -137,7 +155,7 @@
             <h3>Перфоратор BOSCH BFG 3000</h3>
             <del class="old-price">22500 Р.</del>
             <p class="catalog-item-price">
-              <b>15500 Р.</b>
+              15500 Р.
             </p>
           </a>
         </li>
@@ -150,7 +168,7 @@
             <h3>Перфоратор BOSCH BFG 6000</h3>
             <del class="old-price">30500 Р.</del>
             <p class="catalog-item-price">
-              <b>25500 Р.</b>
+              25500 Р.
             </p>
           </a>
         </li>
@@ -162,7 +180,7 @@
           <a href="catalog-item-2000.html">
             <h3>Перфоратор BOSCH BFG 2000</h3>
             <p class="catalog-item-price">
-              <b>12500 Р.</b>
+              12500 Р.
             </p>
           </a>
         </li>
@@ -171,7 +189,7 @@
   </main>
   <footer class="main-footer">
     <a class="footer-logo">
-      <img src="technomart-logo.svg" width="220" height="68" alt="Логотип «Техномарт»">
+      <img src="img/logo-technomart.png" width="220" height="68" alt="Логотип «Техномарт»">
     </a>
     <ul class="footer-navigation">
       <li><a href="about.html">Компания</a></li>
@@ -192,9 +210,21 @@
       ©2010-2017 Компания Техномарт<br>Все права защищены
     </p>
     <ul class="footer-social">
-      <li><a class="social-button" href="#">Вконтакте</a></li>
-      <li><a class="social-button" href="#">Фейсбук</a></li>
-      <li><a class="social-button" href="#">Инстаграм</a></li>
+      <li><a class="social-button" href="vk.com">
+          <img src="img/icon-vk.svg">
+          Вконтакте
+        </a>
+      </li>
+      <li><a class="social-button" href="facebook.com">
+          <img src="img/icon-fb.svg">
+          Фейсбук
+        </a>
+      </li>
+      <li><a class="social-button" href="instagram.com">
+          <img src="img/icon-insta.svg">
+          Инстаграм
+        </a>
+      </li>
     </ul>
     <p class="feedback">Обратная связь:
       <a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
