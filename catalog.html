@@ -63,7 +63,47 @@
     <h1 class="page-title">Перфораторы</h1>
     <section class="filters">
       <h2 class="visually-hidden">Фильтр товаров</h2>
-      <!-- Здесь будет фильтр "Производители" и "Питание" -->
+      <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Производители:</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="bosh" id="filter-bosh" checked>
+              <label for="filter-bosh">Bosh</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="interskol" id="filter-interskol">
+              <label for="filter-interskol">Интерскол</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Makita" id="filter-makita" checked>
+              <label for="filter-makita">Makita</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="dewalt" id="filter-dewalt">
+              <label for="filter-dewalt">Dewalt</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="hitachi" id="filter-hitachi">
+              <label for="filter-hitachi">Hitachi</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Питание:</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="supply-group" value="battery" id="filter-battery" checked>
+              <label for="filter-battery">Аккумуляторные</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="supply-group" value="electricity" id="filter-electricity">
+              <label for="filter-electricity">Сетевые</label>
+            </li>
+          </ul>
+        </fieldset>
+        <button type="submit" class="filter-button button">Показать</button>
+      </form>
     </section>
     <section class="catalog">
       <h2 class="visually-hidden">Список перфораторов</h2>
