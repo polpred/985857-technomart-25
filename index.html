@@ -9,10 +9,17 @@
 <body>
   <header class="main-header">
     <a class="main-header-logo">
-      <img src="img/logo-technomart.png" width="108" height="18" alt="Логотип «Техномарт»">
+      <img src="img/logo-technomart.png" width="220" height="47" alt="Логотип «Техномарт»">
     </a>
     <img src="img/icon-search.svg">
-    <!-- Здесь будет поиск -->
+    <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <label>
+          <span class="visually-hidden">Поиск</span>
+          <input type="text" name="search" placeholder="Поиск:">
+        </label>
+      </p>
+    </form>
     <a href="favorite.html">
       <img src="img/icon-bookmark.svg">
       Закладки
@@ -62,24 +69,39 @@
       <a class="button" href="about.html">Подробнее о компании</a>
       <h3>Контакты</h3>
       <p>Вы можете забрать товар сами,<br>заехав в наш офис</p>
-      <a href="https://yandex.ru/maps/">Карта</a>
+      <a href="https://yandex.ru/maps/">
+        <img src="img/map.png" alt="Санкт-Петербург. ул. Б.Конюшенная, д. 19/8" width="300" height="158">
+      </a>
       <a class="button" href="#">Заблудились? Напишите нам!</a>
     </section>
+    <div class="pop-up-map">
+      <h2 class="visually-hidden">Заблудились?</h2>
+      <img src="img/popup-map.png" alt="Санкт-Петербург. ул. Б.Конюшенная, д. 19/8" width="943" height="449">
+      <button class="modal-close" type="button">Закрыть</button>
+    </div>
     <section class="pop-up">
+      <h2 class="visually-hidden">Напишите нам!</h2>
       <form class="pop-up-form" action="https://echo.htmlacademy.ru" method="post">
         <p class="pop-up-item">
-          <label for="pop-up-name">Ваше имя:</label>
-          <input id="pop-up-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+          <label>
+            Ваше имя:
+            <input type="text" name="name" placeholder="Имя Фамилия">
+          </label>
         </p>
         <p class="pop-up-item">
-          <label for="pop-up-e-mail">Ваш e-mail:</label>
-          <input id="pop-up-e-mail" type="text" name="e-mail" value="" placeholder="Ваш e-mail">
+          <label>
+            Ваш e-mail:
+            <input type="email" name="e-mail" placeholder="Ваш e-mail">
+          </label>
         </p>
         <p class="pop-up-item">
-          <label for="write-letter">Тест письма:</label>
-          <input id="write-letter" type="text" name="letter" value="" placeholder="В свободной форме">
+          <label>
+            Текст письма:
+            <textarea name="letter" placeholder="В свободной форме"></textarea>
+          </label>
         </p>
         <button class="button" type="submit">Отправить</button>
+        <button class="modal-close" type="button">Закрыть</button>
       </form>
     </section>
   </main>
