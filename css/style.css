@@ -1,0 +1,273 @@
+body {
+margin: 0;
+padding: 0;
+
+font-family: "Cuprum", "PT Sans", sans-serif;
+font-size: 17px;
+line-height: 24px;
+font-weight: 700px;
+color: black;
+
+background-color: white;
+background-image: url(img/background-image.png);
+background-position: top center;
+background-repeat: space;
+}
+
+a {
+  text-decoration: none;
+}
+
+.functional-buttons a {
+  color: #ffffff;
+  font-size: 17px;
+}
+
+.make-offer a {
+  font-size: 17px;
+
+  color: #ffffff;
+  background-color: #63a63e;
+}
+
+.user-navigation li a {
+  font-size: 21px;
+  color: black;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+
+  background-color: #32425C;
+}
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+
+
+.site-navigation a,
+.user-navigation a {
+  color: #ffffff;
+}
+
+h1 {
+  color: red;
+  font-style: italic;
+  font-size: 16px;
+  text-transform: none;
+
+  font-weight: normal;
+}
+
+.header-phone {
+  color: red;
+  font-size: 21px;
+}
+
+.header-contacts {
+  color: #32425C;
+  font-size: 14px;
+  text-transform: none;
+}
+
+h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.about-company p {
+  font-family: "PT Sans";
+  font-size: 13px;
+}
+
+.delivery-companies li {
+font-family: "Cuprum" , sans-serif;
+font-size: 21px;
+}
+
+.button {
+  font-family: "Cuprum" , sans-serif;
+  font-size: 14px;
+  color: white;
+
+  text-transform: uppercase;
+
+  background-color: red;
+}
+
+.pop-up-map {
+  display: none;
+}
+
+.pop-up-form {
+  display: none;
+}
+
+.footer-navigation a {
+  font-family: "Cuprum" , sans-serif;
+  font-size: 18px;
+
+  color: white;
+
+}
+
+.footer-contacts {
+  font-family: "Cuprum" , sans-serif;
+  font-size: 18px;
+
+  color: white;
+}
+
+.footer-info a {
+  font-family: "Cuprum" , sans-serif;
+  font-size: 18px;
+
+  color: #ffd180;
+}
+
+.footer-copyright {
+  font-family: "Cuprum" , sans-serif;
+  font-size: 16px;
+
+  color: white;
+}
+
+/*
+.social-button {
+
+}
+*/
+
+.feedback {
+  font-family: "Cuprum" , sans-serif;
+  font-size: 16px;
+
+  color: white;
+}
+
+.feedback a {
+  font-family: "Cuprum" , sans-serif;
+  font-size: 16px;
+
+  color: #ffd180;
+}
+
+
+.developer {
+  font-family: "Cuprum" , sans-serif;
+  font-size: 16px;
+
+  color: white;
+}
+
+.developer a {
+  font-family: "Cuprum" , sans-serif;
+  font-size: 16px;
+
+  color: #ffd180;
+}
+.visually-hidden {
+  display: none;
+}
+
+.inherit-page .name-cabinet {
+  font-family: "Cuprum" , sans-serif;
+  font-size: 21px;
+  color: black;
+
+  background-color: white;
+}
+
+.inherit-page .user-offers {
+  font-family: "Cuprum" , sans-serif;
+  font-size: 16px;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.inherit-page .user-cabinet {
+  font-family: "Cuprum" , sans-serif;
+  font-size: 16px;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.inherit-page .breadcrumbs a {
+  font-family: "PT Sans" ,sans-serif;
+  font-size: 13px;
+  color: black;
+
+  text-transform: uppercase;
+}
+
+.inherit-page .some-in-basket {
+  background-color: red;
+}
+
+.inherit-page .header-about {
+  color: red;
+  font-style: italic;
+  font-size: 16px;
+  text-transform: none;
+}
+
+.inherit-page .page-title {
+  font-family: "Cuprum" , sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-style: normal;
+
+  color: #32425c;
+}
+
+.inherit-page fieldset{
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+
+  color: black;
+}
+
+.inherit-page .filter-button {
+  font-family: "PT Sans" , sans-serif;
+  font-size: 13px;
+  color: black;
+
+  background-color: white;
+
+}
+
+.inherit-page .catalog-item h3 {
+  font-family: "PT Sans" , sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+
+  color: black;
+
+}
+
+.inherit-page .old-price {
+  font-family: "PT Sans" , sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+
+  color: #999999;
+}
+
+.inherit-page .catalog-item-price {
+  font-family: "PT Sans" , sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+
+  color: white;
+  background-color: red;
+}
+
+.inherit-page .pop-up-byu {
+  display: none;
+}
