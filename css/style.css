@@ -4,7 +4,7 @@ body {
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: #000000;
 }
 
@@ -38,21 +38,17 @@ a {
   background-color: #293449;
 }
 
-.header-background:hover {
-  background-color: #212a3a;
-}
-
-.user-navigation li a {
+.user-navigation a {
   font-size: 21px;
   line-height: 21px;
   color: #000000;
 }
 
-.user-navigation li a:hover {
+.user-navigation a:hover {
   color: #ee3643;
 }
 
-.user-navigation li a:active {
+.user-navigation a:active {
   color: #b2b2b2;
 }
 
@@ -66,36 +62,39 @@ a {
 .search-form input {
   font-size: 17px;
   line-height: 18px;
-  color: #d8d8d8;
+  color: #ffffff;
   background-color: #293449;
+  border: 1px solid #293449;
 }
 
-.search-form :hover {
+.search-form:hover {
   background-color: #212a3a;
+  border: 1px solid #212a3a;
 }
 
-.search-form :focus {
+.search-form input:focus {
   color: #000000;
   background-color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
-.search-form :active {
+.search-form:active {
   background-color: #293449;
 }
 
-::-webkit-input-placeholder {
+.search-form input::-webkit-input-placeholder {
   color: #d8d8d8;
 }
 
-::-moz-placeholder {
+.search-form input::-moz-placeholder {
   color: #d8d8d8;
 }
 
-:-ms-input-placeholder {
+.search-form input:-ms-input-placeholder {
   color: #d8d8d8;
 }
 
-:-o-input-placeholder {
+.search-form input:-o-input-placeholder {
   color: #d8d8d8;
 }
 
@@ -104,8 +103,7 @@ a {
   list-style: none;
 }
 
-.site-navigation a,
-.user-navigation a {
+.site-navigation a {
   color: #ffffff;
 }
 
@@ -256,7 +254,7 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
-.name-cabinet {
+.user-navigation .name-cabinet {
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 21px;
   line-height: 21px;
@@ -264,15 +262,15 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
 }
 
-.inherit-page .name-cabinet:hover {
+.user-navigation.name-cabinet:hover {
   color: #000000;
 }
 
-.inherit-page .name-cabinet:active {
+.user-navigation .name-cabinet:active {
   color: #b2b2b2;
 }
 
-.inherit-page .user-offers {
+.user-navigation .user-offers {
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
@@ -280,7 +278,7 @@ input[type="radio"].visually-hidden {
   text-decoration: underline;
 }
 
-.inherit-page .user-cabinet {
+.user-navigation .user-cabinet {
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
@@ -315,7 +313,8 @@ input[type="radio"].visually-hidden {
 
 .inherit-page .brand-name {
   font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
+  line-height: 20px;
   font-weight: normal;
   color: #000000;
   text-transform: uppercase;
@@ -362,6 +361,7 @@ input[type="radio"].visually-hidden {
 .inherit-page fieldset {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 15px;
+  line-height: 20px;
   text-transform: uppercase;
   color: #000000;
 }
